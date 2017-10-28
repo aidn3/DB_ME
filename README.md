@@ -14,7 +14,7 @@ require "DB_ME.php";
 $DB_ME = new DB_ME("DB_ME.bin");
 
 //(optional) Set Encrypt if it necessary
-//$DB_ME->SetEncrypt("Password");
+$DB_ME->SetEncrypt("Password");
 
 //Create a Table 
 $DB_ME->MakeTable(["users","emails","Pass"]);
